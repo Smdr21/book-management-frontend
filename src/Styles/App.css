@@ -1,0 +1,98 @@
+.header{
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text{
+  font-size: 30px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.list-item{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.nav-bar{
+  text-align: center;
+}
+
+.btn{
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: larger;
+  font-weight: 400;
+  color: white;
+  background-color: #234159;
+  cursor: pointer;
+}
+
+.btn:active{
+  background-color: #0D1821;
+}
+.btn:focus{
+  outline: none;
+}
+
+.books-title{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.books-body{
+    width: 70vw;
+    margin: 0 auto;
+    height: 60vh;
+    background-color: #234159;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 0px;
+}
+
+.books-table{
+  width: 100%;
+
+}
+.book-table-row{
+  display: flex;
+  font-size: 18px;
+}
+
+.tcell-styl{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+.tcell-id{
+  width: 10%;
+}
+.tcell-title{
+  width: 30%;
+}
+.tcell-author{
+  width: 30%;
+}
+.tcell-price{
+  width: 10%;
+}
+.tcell-action{
+  width: 20%;
+  border-bottom: 1px solid white;
+}
+.book-table-row > td{
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+
+
