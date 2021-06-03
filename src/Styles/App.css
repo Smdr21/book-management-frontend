@@ -41,6 +41,15 @@ li{
   outline: none;
 }
 
+.btn-form{
+  background-color: white;
+  color: #234159;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 20px;
+
+}
+
 .books-title{
     text-align: center;
     margin: 30px 0px;
@@ -91,6 +100,21 @@ li{
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.new-form{
+  height: 80%;
+  padding: 30px 50px 0 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new-form > input{
+  width: 70%;
+  height: 30px;
+
 }
 
 
