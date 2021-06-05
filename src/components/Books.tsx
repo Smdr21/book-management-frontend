@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Book from './Book';
 
-const Books = () => {
-
+const Books = (props: any) => {
     return (
         <table className="books-table">
             <tr className="book-table-row">
